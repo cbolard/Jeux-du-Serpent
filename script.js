@@ -71,8 +71,8 @@ window.onload = function (){
         snakee = new Snake([[6,4],[5,4],[4,4], [3,4], [2,4]], "right");
         applee = new Apple ([10, 10]);
         refreshCanvas();
-        score = 0;
         clearTimeout(timeout);    
+        refreshCanvas();    
         }
     function drawScore(){
         ctx.save();
